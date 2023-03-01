@@ -1,24 +1,3 @@
-# # calculating number of zerores in factorial of th number
-# class Calcu:
-
-#     def __init__(self, fact, trail) -> None:
-#         self.fact = fact()
-#         self.trail = trail()
-
-#     def fact(n):
-#         if n == 0 :
-#             return 1 
-#         else:
-#             return n* fact(n -1)
-        
-
-#     def trail():
-
-
-
-
-#    def __name__ == '__main__'
- 
 # this program has theta(n) time complexity 
 def ZeroesCount(n):
     fact = 1 
@@ -47,3 +26,25 @@ if __name__ == '__main__':
     print(ZeroesCount(n))
     print(ZeroesCount2(n))
 
+
+# # calculating number of zerores in factorial of th number
+# class Calcu:
+
+#     def __init__(self, fact, trail) -> None:
+#         self.fact = fact()
+#         self.trail = trail()
+
+#     def fact(n):
+#         if n == 0 :
+#             return 1 
+#         else:
+#             return n* fact(n -1)
+        
+
+#     def trail():
+
+
+
+
+#    def __name__ == '__main__'
+ 
