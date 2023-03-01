@@ -33,7 +33,6 @@ def ZeroesCount(n):
     return res, x
 
 # lets define optimal function for the counting of trailing zeroes
- 
 def ZeroesCount2(n):
     res = 0
     i = 5 
